@@ -1,0 +1,686 @@
+[05:29:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:29:59] [ServerMain/INFO]: Loaded 7 recipes
+[05:30:01] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[05:30:01] [Server thread/INFO]: Loading properties
+[05:30:01] [Server thread/INFO]: This server is running CraftBukkit version 4029-Spigot-c198da2-3337018 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT)
+[05:30:02] [Server thread/INFO]: Debug logging is disabled
+[05:30:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:30:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:30:03] [Server thread/INFO]: Default game type: SURVIVAL
+[05:30:03] [Server thread/INFO]: Generating keypair
+[05:30:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:30:03] [Server thread/INFO]: Using epoll channel type
+[05:30:03] [Server thread/WARN]: Failed to find a usable hardware address from the network interfaces; using random bytes: d8:01:79:50:99:14:01:7b
+[05:30:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:30:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:30:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:30:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:30:03] [Server thread/INFO]: Preparing level "world"
+[05:30:04] [Server thread/INFO]: -------- World Settings For [world] --------
+[05:30:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[05:30:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[05:30:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[05:30:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:30:04] [Server thread/INFO]: Mob Spawn Range: 6
+[05:30:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[05:30:04] [Server thread/INFO]: Max TNT Explosions: 100
+[05:30:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:30:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:30:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:30:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:30:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:30:04] [Server thread/INFO]: View Distance: 10
+[05:30:04] [Server thread/INFO]: Simulation Distance: 10
+[05:30:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[05:30:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:30:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[05:30:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[05:30:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[05:30:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[05:30:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[05:30:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:30:04] [Server thread/INFO]: Mob Spawn Range: 6
+[05:30:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[05:30:04] [Server thread/INFO]: Max TNT Explosions: 100
+[05:30:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:30:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:30:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:30:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:30:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:30:04] [Server thread/INFO]: View Distance: 10
+[05:30:04] [Server thread/INFO]: Simulation Distance: 10
+[05:30:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[05:30:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:30:07] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[05:30:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[05:30:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[05:30:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[05:30:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Potato Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Vine Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[05:30:07] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:30:07] [Server thread/INFO]: Mob Spawn Range: 6
+[05:30:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[05:30:07] [Server thread/INFO]: Max TNT Explosions: 100
+[05:30:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:30:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:30:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:30:07] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:30:07] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:30:07] [Server thread/INFO]: View Distance: 10
+[05:30:07] [Server thread/INFO]: Simulation Distance: 10
+[05:30:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[05:30:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:30:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:30:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:11] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[05:30:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:12] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:13] [Worker-Main-4/INFO]: Preparing spawn area: 1%
+[05:30:13] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[05:30:14] [Worker-Main-5/INFO]: Preparing spawn area: 9%
+[05:30:14] [Worker-Main-3/INFO]: Preparing spawn area: 17%
+[05:30:15] [Worker-Main-3/INFO]: Preparing spawn area: 26%
+[05:30:15] [Worker-Main-5/INFO]: Preparing spawn area: 42%
+[05:30:16] [Worker-Main-1/INFO]: Preparing spawn area: 64%
+[05:30:16] [Worker-Main-2/INFO]: Preparing spawn area: 71%
+[05:30:17] [Worker-Main-3/INFO]: Preparing spawn area: 95%
+[05:30:17] [Server thread/INFO]: Time elapsed: 10334 ms
+[05:30:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:30:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:22] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:22] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[05:30:22] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:22] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[05:30:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[05:30:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:25] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:27] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[05:30:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:28] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[05:30:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:29] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[05:30:29] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:30] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[05:30:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:31] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:32] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:33] [Worker-Main-3/INFO]: Preparing spawn area: 7%
+[05:30:33] [Worker-Main-3/INFO]: Preparing spawn area: 26%
+[05:30:34] [Worker-Main-5/INFO]: Preparing spawn area: 41%
+[05:30:34] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[05:30:35] [Worker-Main-1/INFO]: Preparing spawn area: 88%
+[05:30:35] [Server thread/INFO]: Time elapsed: 17232 ms
+[05:30:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:30:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:41] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:43] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:43] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:44] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:44] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:45] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[05:30:45] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:46] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[05:30:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[05:30:47] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[05:30:47] [Worker-Main-1/INFO]: Preparing spawn area: 10%
+[05:30:48] [Worker-Main-3/INFO]: Preparing spawn area: 22%
+[05:30:48] [Worker-Main-3/INFO]: Preparing spawn area: 37%
+[05:30:49] [Worker-Main-2/INFO]: Preparing spawn area: 56%
+[05:30:49] [Worker-Main-4/INFO]: Preparing spawn area: 75%
+[05:30:50] [Worker-Main-1/INFO]: Preparing spawn area: 99%
+[05:30:50] [Server thread/INFO]: Time elapsed: 15010 ms
+[05:30:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:30:50] [Server thread/INFO]: Done (46.467s)! For help, type "help"
+[05:34:40] [User Authenticator #1/INFO]: UUID of player ace is 43fc2460-c878-3e85-9cf1-cb6df954545e
+[05:34:44] [Server thread/INFO]: ace joined the game
+[05:34:45] [Server thread/INFO]: ace[/192.168.31.230:65280] logged in with entity id 150 at ([world]-1733.9905740756617, 58.0, -927.4973217400893)
+[05:34:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3151ms or 63 ticks behind
+[05:35:10] [Server thread/INFO]: ace issued server command: /gamemode creative
+[05:35:10] [Server thread/INFO]: [ace: Set own game mode to Creative Mode]
+[05:35:36] [Server thread/INFO]: ace issued server command: /gamemode survival
+[05:35:36] [Server thread/INFO]: [ace: Set own game mode to Survival Mode]
+[05:37:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4463ms or 89 ticks behind
+[05:39:00] [User Authenticator #2/INFO]: UUID of player lynonmic is 15a17fa7-0eff-3895-956f-7c6e3a025124
+[05:39:01] [Server thread/INFO]: lynonmic joined the game
+[05:39:01] [Server thread/INFO]: lynonmic[/127.57.10.108:39087] logged in with entity id 1196 at ([world]-1051.872284524124, 70.0, -312.49347674556003)
+[05:41:54] [Server thread/INFO]: ace issued server command: /tp lynonmic
+[05:41:54] [Server thread/INFO]: [ace: Teleported ace to lynonmic]
+[05:42:28] [Async Chat Thread - #0/INFO]: [Not Secure] <lynonmic> bag full r
+[05:42:42] [Async Chat Thread - #1/INFO]: [Not Secure] <ace> tronng ma di
+[05:44:06] [Async Chat Thread - #3/INFO]: [Not Secure] <lynonmic> vo voice di
+[05:56:05] [User Authenticator #3/INFO]: UUID of player TAT is d628c8bf-a495-3b25-9f76-1fb33089c5bd
+[05:56:05] [Server thread/INFO]: TAT joined the game
+[05:56:05] [Server thread/INFO]: TAT[/127.223.166.97:37761] logged in with entity id 5218 at ([world]-1107.6824490964937, 63.0, -291.8901437010273)
+[05:58:39] [Async Chat Thread - #5/INFO]: [Not Secure] <ace> jukebox
+[06:10:22] [Server thread/INFO]: TAT has made the advancement [The Cutest Predator]
+[06:19:59] [Async Chat Thread - #7/INFO]: [Not Secure] <lynonmic> sleep
+[06:20:03] [Server thread/INFO]: ace issued server command: /tp TAT ace
+[06:20:03] [Server thread/INFO]: [ace: Teleported TAT to ace]
+[06:22:04] [Server thread/INFO]: TAT drowned
+[06:22:27] [Server thread/INFO]: ace has made the advancement [The Cutest Predator]
+[06:31:55] [Server thread/INFO]: ace issued server command: /tp lynonmic
+[06:31:55] [Server thread/INFO]: [ace: Teleported ace to lynonmic]
+[06:37:48] [Server thread/INFO]: TAT lost connection: Timed out
+[06:37:48] [Server thread/INFO]: TAT left the game.
+[06:37:48] [Server thread/WARN]: handleDisconnection() called twice
+[06:37:50] [Server thread/INFO]: lynonmic lost connection: Timed out
+[06:37:50] [Server thread/INFO]: lynonmic left the game.
+[06:37:50] [Server thread/WARN]: handleDisconnection() called twice
+[06:37:59] [User Authenticator #4/INFO]: UUID of player lynonmic is 15a17fa7-0eff-3895-956f-7c6e3a025124
+[06:37:59] [Server thread/INFO]: lynonmic joined the game
+[06:38:00] [Server thread/INFO]: lynonmic[/127.57.10.108:43585] logged in with entity id 14843 at ([world]-1002.9178317445402, 72.0, -254.4152957490795)
+[06:38:09] [Server thread/INFO]: lynonmic lost connection: Disconnected
+[06:38:09] [Server thread/INFO]: lynonmic left the game
+[06:38:30] [User Authenticator #5/INFO]: UUID of player TAT is d628c8bf-a495-3b25-9f76-1fb33089c5bd
+[06:38:31] [Server thread/INFO]: TAT joined the game
+[06:38:31] [Server thread/INFO]: TAT[/127.223.166.97:47377] logged in with entity id 14903 at ([world]-1264.480050352367, 20.16819097901245, -345.30000001192093)
+[06:38:41] [User Authenticator #6/INFO]: UUID of player lynonmic is 15a17fa7-0eff-3895-956f-7c6e3a025124
+[06:38:41] [Server thread/INFO]: lynonmic joined the game
+[06:38:41] [Server thread/INFO]: lynonmic[/127.57.10.108:42187] logged in with entity id 15112 at ([world]-977.6999999880791, 70.92293597758626, -226.33501924860718)
+[06:40:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2538ms or 50 ticks behind
+[06:40:37] [Server thread/INFO]: ace issued server command: /tp lynonmic ace
+[06:40:37] [Server thread/INFO]: [ace: Teleported lynonmic to ace]
+[06:43:06] [Server thread/WARN]: Oak Boat (vehicle of ace) moved wrongly! 0.6457573171531683
+[06:43:11] [Server thread/INFO]: ace issued server command: /tp TAT ace
+[06:43:11] [Server thread/INFO]: [ace: Teleported TAT to ace]
+[06:43:20] [Server thread/WARN]: Spruce Boat (vehicle of lynonmic) moved wrongly! 0.2674537762437694
+[06:43:20] [Server thread/WARN]: Spruce Boat (vehicle of TAT) moved wrongly! 0.39886548251450904
+[06:43:21] [Server thread/WARN]: Spruce Boat (vehicle of lynonmic) moved wrongly! 0.30156243614953837
+[06:43:21] [Server thread/WARN]: Spruce Boat (vehicle of lynonmic) moved wrongly! 0.3582506125174518
+[06:43:21] [Server thread/WARN]: Spruce Boat (vehicle of lynonmic) moved wrongly! 0.5678307227107666
+[06:43:22] [Server thread/WARN]: Spruce Boat (vehicle of lynonmic) moved wrongly! 0.32419970289561206
+[06:43:22] [Server thread/WARN]: Spruce Boat (vehicle of lynonmic) moved wrongly! 0.26325557935837196
+[06:43:22] [Server thread/WARN]: Spruce Boat (vehicle of lynonmic) moved wrongly! 0.515938640697982
+[06:43:22] [Server thread/WARN]: Spruce Boat (vehicle of lynonmic) moved wrongly! 0.7979930368714463
+[06:43:22] [Server thread/WARN]: Spruce Boat (vehicle of lynonmic) moved wrongly! 0.5073271293525181
+[06:43:45] [Server thread/WARN]: Spruce Boat (vehicle of lynonmic) moved wrongly! 0.2974267881639321
+[06:45:17] [Server thread/INFO]: Villager EntityVillager['Nitwit'/1412, l='ServerLevel[world]', x=-1145.43, y=67.00, z=-430.54] died, message: 'Nitwit was slain by Zombie'
+[07:06:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3320ms or 66 ticks behind
+[07:09:09] [Server thread/INFO]: ace issued server command: /tp TAT ace
+[07:09:09] [Server thread/INFO]: [ace: Teleported TAT to ace]
+[07:13:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2506ms or 50 ticks behind
+[07:15:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2501ms or 50 ticks behind
+[07:17:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2504ms or 50 ticks behind
+[07:19:49] [Server thread/INFO]: ace issued server command: /tp lynonmic ace
+[07:19:49] [Server thread/INFO]: [ace: Teleported lynonmic to ace]
+[07:20:36] [Server thread/INFO]: TAT has made the advancement [Hot Stuff]
+[07:26:32] [Server thread/INFO]: ace issued server command: /gamemode spectator
+[07:26:32] [Server thread/INFO]: [ace: Set own game mode to Spectator Mode]
+[07:27:03] [Server thread/INFO]: ace issued server command: /gamemode survival
+[07:27:03] [Server thread/INFO]: [ace: Set own game mode to Survival Mode]
+[07:27:03] [Server thread/INFO]: TAT has made the advancement [Tactical Fishing]
+[07:32:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2512ms or 50 ticks behind
+[07:32:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3309ms or 66 ticks behind
+[07:33:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2528ms or 50 ticks behind
+[07:33:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2514ms or 50 ticks behind
+[07:33:37] [Server thread/INFO]: ace issued server command: /tp lynonmic ace
+[07:33:37] [Server thread/INFO]: [ace: Teleported lynonmic to ace]
+[07:40:52] [Server thread/INFO]: ace issued server command: /tp @a TAT
+[07:40:52] [Server thread/INFO]: [ace: Teleported 3 entities to TAT]
+[07:45:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[07:46:12] [Server thread/INFO]: ace has made the advancement [Ice Bucket Challenge]
+[07:48:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2515ms or 50 ticks behind
+[07:49:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2511ms or 50 ticks behind
+[07:49:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2683ms or 53 ticks behind
+[07:49:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3172ms or 63 ticks behind
+[07:50:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3661ms or 73 ticks behind
+[07:53:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5653ms or 113 ticks behind
+[07:53:12] [Server thread/INFO]: ace issued server command: /tp lynonmic
+[07:53:12] [Server thread/INFO]: [ace: Teleported ace to lynonmic]
+[07:57:06] [Server thread/INFO]: lynonmic has made the advancement [Ice Bucket Challenge]
+[08:01:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2546ms or 50 ticks behind
+[08:02:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2575ms or 51 ticks behind
+[08:03:21] [Server thread/INFO]: ace issued server command: /tp lynonmic ace
+[08:03:21] [Server thread/INFO]: [ace: Teleported lynonmic to ace]
+[08:12:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2506ms or 50 ticks behind
+[08:12:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2881ms or 57 ticks behind
+[08:13:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2915ms or 58 ticks behind
+[08:13:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3523ms or 70 ticks behind
+[08:14:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2641ms or 52 ticks behind
+[08:15:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2517ms or 50 ticks behind
+[08:15:19] [Server thread/INFO]: ace issued server command: /tp lynonmic ace
+[08:15:19] [Server thread/INFO]: [ace: Teleported lynonmic to ace]
+[08:21:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[08:22:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[08:23:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2508ms or 50 ticks behind
+[08:24:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
+[08:24:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2513ms or 50 ticks behind
+[08:25:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[08:26:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2510ms or 50 ticks behind
+[08:27:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[08:28:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2511ms or 50 ticks behind
+[08:28:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3677ms or 73 ticks behind
+[08:29:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4325ms or 86 ticks behind
+[08:29:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3267ms or 65 ticks behind
+[08:29:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3270ms or 65 ticks behind
+[08:30:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3215ms or 64 ticks behind
+[08:30:19] [Server thread/INFO]: Villager EntityVillager['Nitwit'/50468, l='ServerLevel[world]', x=-1285.34, y=91.00, z=-449.19] died, message: 'Nitwit was slain by Zombie'
+[08:30:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3348ms or 66 ticks behind
+[08:30:29] [Server thread/INFO]: Villager EntityVillager['Weaponsmith'/50469, l='ServerLevel[world]', x=-1278.50, y=92.00, z=-444.77] died, message: 'Weaponsmith was slain by Zombie'
+[08:30:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3461ms or 69 ticks behind
+[08:30:47] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/50529, l='ServerLevel[world]', x=-1255.70, y=78.80, z=-487.31] died, message: 'Leatherworker was slain by Zombie'
+[08:30:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3119ms or 62 ticks behind
+[08:31:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2877ms or 57 ticks behind
+[08:31:17] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/50528, l='ServerLevel[world]', x=-1240.85, y=84.00, z=-471.38] died, message: 'Leatherworker was slain by Zombie Villager'
+[08:31:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3005ms or 60 ticks behind
+[08:31:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3631ms or 72 ticks behind
+[08:32:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3914ms or 78 ticks behind
+[08:32:13] [Server thread/INFO]: lynonmic has made the advancement [Who is Cutting Onions?]
+[08:32:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3979ms or 79 ticks behind
+[08:32:49] [Server thread/INFO]: Villager EntityVillager['Farmer'/51951, l='ServerLevel[world]', x=-1265.62, y=78.00, z=-498.75] died, message: 'Farmer was slain by Zombie'
+[08:32:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3179ms or 63 ticks behind
+[08:33:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3238ms or 64 ticks behind
+[08:33:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2516ms or 50 ticks behind
+[08:33:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2622ms or 52 ticks behind
+[08:34:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3031ms or 60 ticks behind
+[08:34:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3075ms or 61 ticks behind
+[08:34:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3451ms or 69 ticks behind
+[08:34:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5138ms or 102 ticks behind
+[08:35:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
+[08:35:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2509ms or 50 ticks behind
+[08:36:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[08:36:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2551ms or 51 ticks behind
+[08:37:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2508ms or 50 ticks behind
+[08:37:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2504ms or 50 ticks behind
+[08:38:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[08:38:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2507ms or 50 ticks behind
+[08:39:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2501ms or 50 ticks behind
+[08:39:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2506ms or 50 ticks behind
+[08:40:09] [Server thread/INFO]: TAT fell from a high place
+[08:40:26] [Server thread/WARN]: TAT moved too quickly! 6.0571602854311095,-1.0142291043769234,10.719500120925545
+[08:40:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3907ms or 78 ticks behind
+[08:41:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[08:41:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[08:42:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2515ms or 50 ticks behind
+[08:42:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2507ms or 50 ticks behind
+[08:42:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[08:43:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2505ms or 50 ticks behind
+[08:43:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2513ms or 50 ticks behind
+[08:44:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[08:44:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
+[08:44:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2519ms or 50 ticks behind
+[08:45:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2501ms or 50 ticks behind
+[08:45:23] [Server thread/INFO]: ace issued server command: /tp lynonmic ace
+[08:45:23] [Server thread/INFO]: [ace: Teleported lynonmic to ace]
+[08:50:31] [Server thread/INFO]: lynonmic was slain by Zombie
+[08:50:31] [Server thread/INFO]: lynonmic lost connection: Timed out
+[08:50:31] [Server thread/INFO]: lynonmic left the game
+[08:53:10] [Server thread/INFO]: Villager EntityVillager['Armorer'/35142, l='ServerLevel[world]', x=-1100.93, y=67.00, z=-313.25] died, message: 'Armorer was slain by Zombie Villager'
+[08:53:18] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/35144, l='ServerLevel[world]', x=-1097.92, y=66.94, z=-326.45] died, message: 'Leatherworker was slain by Zombie Villager'
+[09:08:22] [Server thread/INFO]: ace was slain by Iron Golem
+[09:08:42] [Server thread/INFO]: ace was slain by Iron Golem
+[09:08:55] [Server thread/INFO]: ace issued server command: /gamemode creative
+[09:08:55] [Server thread/INFO]: [ace: Set own game mode to Creative Mode]
+[09:10:32] [Server thread/INFO]: ace issued server command: /gamemode survival
+[09:10:32] [Server thread/INFO]: [ace: Set own game mode to Survival Mode]
+[09:11:49] [Server thread/INFO]: ace issued server command: /effect clear ace
+[09:25:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4323ms or 86 ticks behind
+[09:26:38] [Server thread/INFO]: ace issued server command: /gamemode spectator
+[09:26:38] [Server thread/INFO]: [ace: Set own game mode to Spectator Mode]
+[09:27:20] [Server thread/INFO]: ace issued server command: /gamemode survival
+[09:27:20] [Server thread/INFO]: [ace: Set own game mode to Survival Mode]
+[09:27:47] [Server thread/INFO]: ace issued server command: /gamemode spectator
+[09:27:47] [Server thread/INFO]: [ace: Set own game mode to Spectator Mode]
+[09:32:12] [Server thread/INFO]: ace issued server command: /gamemode creative
+[09:32:12] [Server thread/INFO]: [ace: Set own game mode to Creative Mode]
+[09:34:52] [Server thread/INFO]: TAT was blown up by Creeper
+[09:36:01] [Server thread/INFO]: ace issued server command: /data get entity TAT LastDeathLocation
+[09:36:20] [Server thread/INFO]: ace issued server command: /tp TAT -1092 63 -279
+[09:36:22] [Server thread/INFO]: [ace: Teleported TAT to -1091.500000, 63.000000, -278.500000]
+[09:37:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2554ms or 51 ticks behind
+[09:37:26] [Server thread/INFO]: Villager EntityVillager['Villager'/81494, l='ServerLevel[world]', x=-366.53, y=71.00, z=-307.46] died, message: 'Villager was slain by Zombie'
+[09:38:03] [Server thread/INFO]: ace issued server command: /gamemode survival
+[09:38:03] [Server thread/INFO]: [ace: Set own game mode to Survival Mode]
+[09:44:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2509ms or 50 ticks behind
+[09:45:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2547ms or 50 ticks behind
+[09:46:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4525ms or 90 ticks behind
+[09:46:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
+[09:50:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
+[09:50:32] [Server thread/INFO]: Villager EntityVillager['Villager'/81495, l='ServerLevel[world]', x=-368.66, y=62.00, z=-294.54] died, message: 'Villager was slain by Zombie'
+[09:50:36] [Server thread/INFO]: ace issued server command: /tp TAT
+[09:50:36] [Server thread/INFO]: [ace: Teleported ace to TAT]
+[09:54:26] [Server thread/INFO]: ace was slain by Iron Golem
+[09:54:39] [Server thread/INFO]: ace issued server command: /tp TAT
+[09:54:39] [Server thread/INFO]: [ace: Teleported ace to TAT]
+[09:59:20] [Server thread/INFO]: Villager EntityVillager['Weaponsmith'/82412, l='ServerLevel[world]', x=-1055.69, y=56.56, z=-223.39] died, message: 'Weaponsmith hit the ground too hard'
+[10:11:06] [Server thread/WARN]: Spruce Boat (vehicle of ace) moved wrongly! 0.34807936517668725
+[10:15:05] [Server thread/INFO]: ace issued server command: /give TAT minecraft:name_tag 2
+[10:15:05] [Server thread/INFO]: [ace: Gave 2 [Name Tag] to TAT]
+[10:21:41] [Server thread/INFO]: ace was slain by Zombie
+[10:21:49] [Server thread/INFO]: ace issued server command: /tp TAT
+[10:21:49] [Server thread/INFO]: [ace: Teleported ace to TAT]
+[10:24:49] [Server thread/INFO]: ace issued server command: /summon minecraft:zombie -1035 58 -223
+[10:24:49] [Server thread/INFO]: [ace: Summoned new Zombie]
+[10:25:21] [Server thread/INFO]: ace issued server command: /summon minecraft:zombie -1035 56 -223
+[10:25:21] [Server thread/INFO]: [ace: Summoned new Zombie]
+[10:25:58] [Server thread/INFO]: ace issued server command: /summon minecraft:zombie -1038 56 -223
+[10:25:58] [Server thread/INFO]: [ace: Summoned new Zombie]
+[10:26:25] [Server thread/INFO]: ace issued server command: /tp TAT
+[10:26:25] [Server thread/INFO]: [ace: Teleported ace to TAT]
+[10:26:27] [Server thread/INFO]: ace burned to death
+[10:26:32] [Server thread/INFO]: ace issued server command: /tp TAT
+[10:26:32] [Server thread/INFO]: [ace: Teleported ace to TAT]
+[10:37:15] [Server thread/INFO]: TAT lost connection: Timed out
+[10:37:15] [Server thread/INFO]: TAT left the game
+[10:38:45] [Server thread/INFO]: ace issued server command: /summon minecraft:villager
+[10:38:45] [Server thread/INFO]: [ace: Summoned new Villager]
+[10:42:04] [Server thread/INFO]: ace issued server command: /summon minecraft:villager
+[10:42:04] [Server thread/INFO]: [ace: Summoned new Villager]
+[10:42:31] [Server thread/INFO]: ace issued server command: /summon minecraft:villager
+[10:42:31] [Server thread/INFO]: [ace: Summoned new Villager]
+[10:43:02] [Server thread/INFO]: ace issued server command: /summon minecraft:villager
+[10:43:02] [Server thread/INFO]: [ace: Summoned new Villager]
+[10:43:19] [Server thread/INFO]: ace issued server command: /time set night
+[10:43:19] [Server thread/INFO]: [ace: Set the time to 13000]
+[10:49:36] [Server thread/INFO]: ace lost connection: Disconnected
+[10:49:36] [Server thread/INFO]: ace left the game
+[12:51:25] [User Authenticator #7/INFO]: UUID of player TAT is d628c8bf-a495-3b25-9f76-1fb33089c5bd
+[12:51:26] [Server thread/INFO]: TAT joined the game
+[12:51:26] [Server thread/INFO]: TAT[/127.223.166.97:42125] logged in with entity id 100116 at ([world]-1054.699999988079, 31.0, -214.87596083389022)
+[13:26:28] [User Authenticator #8/INFO]: UUID of player ace is 43fc2460-c878-3e85-9cf1-cb6df954545e
+[13:26:29] [Server thread/INFO]: ace joined the game
+[13:26:29] [Server thread/INFO]: ace[/192.168.31.230:49255] logged in with entity id 108051 at ([world]-1053.5217931573457, 31.0, -215.2067131800507)
+[13:26:55] [Server thread/INFO]: ace issued server command: /tp TAT
+[13:26:55] [Server thread/INFO]: [ace: Teleported ace to TAT]
+[13:29:00] [Server thread/INFO]: ace issued server command: /tp TAT
+[13:29:00] [Server thread/INFO]: [ace: Teleported ace to TAT]
+[13:29:17] [Async Chat Thread - #9/INFO]: [Not Secure] <ace> ban di dau zijj
+[13:29:33] [Async Chat Thread - #8/INFO]: [Not Secure] <TAT> tim sheep
+[13:29:50] [Async Chat Thread - #8/INFO]: [Not Secure] <ace> xung quanh chet het r
+[13:29:51] [Async Chat Thread - #8/INFO]: [Not Secure] <ace> :v
+[13:29:56] [Async Chat Thread - #8/INFO]: [Not Secure] <TAT> :))]
+[13:30:23] [Async Chat Thread - #9/INFO]: [Not Secure] <TAT> lo
+[13:30:29] [Async Chat Thread - #9/INFO]: [Not Secure] <TAT> :))
+[13:30:59] [Async Chat Thread - #9/INFO]: [Not Secure] <ace> :v
+[13:31:02] [Async Chat Thread - #9/INFO]: [Not Secure] <ace> sao
+[13:31:15] [Async Chat Thread - #9/INFO]: [Not Secure] <TAT> di tim tui no r bat ve lam nole nao
+[13:31:42] [Async Chat Thread - #9/INFO]: [Not Secure] <ace> de tao chinh lai cai server
+[13:31:43] [Async Chat Thread - #9/INFO]: [Not Secure] <ace> :v
+[13:31:43] [Async Chat Thread - #9/INFO]: [Not Secure] <TAT> di ngu neo bn
+[13:32:48] [Async Chat Thread - #11/INFO]: [Not Secure] <TAT> ngu di bn oi
+[13:33:20] [Async Chat Thread - #10/INFO]: [Not Secure] <TAT> alo
+[13:33:24] [Async Chat Thread - #10/INFO]: [Not Secure] <TAT> ngu diiiiii
+[13:33:54] [Async Chat Thread - #11/INFO]: [Not Secure] <TAT> :v
+[13:33:59] [Async Chat Thread - #11/INFO]: [Not Secure] <TAT> lolo
+[13:35:01] [Server thread/INFO]: ace issued server command: /tp TAT
+[13:35:01] [Server thread/INFO]: [ace: Teleported ace to TAT]
+[13:36:16] [Async Chat Thread - #13/INFO]: [Not Secure] <ace> :v
+[13:36:20] [Async Chat Thread - #12/INFO]: [Not Secure] <ace> vo voice di
+[13:36:35] [Async Chat Thread - #12/INFO]: [Not Secure] <TAT> ti di mommy dang nam ke ben
+[13:36:38] [Async Chat Thread - #12/INFO]: [Not Secure] <TAT> :)))
+[13:36:40] [Async Chat Thread - #12/INFO]: [Not Secure] <ace> :v
+[13:36:44] [Async Chat Thread - #12/INFO]: [Not Secure] <ace> ngon
+[13:38:01] [Async Chat Thread - #15/INFO]: [Not Secure] <TAT> nhieu sat qua bn oiw
+[13:38:08] [Async Chat Thread - #14/INFO]: [Not Secure] <TAT> :)))
+[13:38:53] [Async Chat Thread - #15/INFO]: [Not Secure] <TAT> sieu may farm
+[13:40:38] [Async Chat Thread - #17/INFO]: [Not Secure] <TAT> bn dau r
+[13:40:42] [Async Chat Thread - #16/INFO]: [Not Secure] <ace> :v
+[13:40:44] [Async Chat Thread - #17/INFO]: [Not Secure] <ace> sao ay
+[13:40:54] [Async Chat Thread - #17/INFO]: [Not Secure] <TAT> ti tim bon cuu neo
+[13:41:14] [Async Chat Thread - #16/INFO]: [Not Secure] <ace> doi xiu
+[13:43:14] [Server thread/INFO]: ace issued server command: /tp TAT
+[13:43:14] [Server thread/INFO]: [ace: Teleported ace to TAT]
+[13:43:49] [Async Chat Thread - #19/INFO]: [Not Secure] <TAT> minh nhieu sat ma
+[13:43:57] [Async Chat Thread - #18/INFO]: [Not Secure] <TAT> sao bn k mac quan z
+[13:44:04] [Async Chat Thread - #18/INFO]: [Not Secure] <ace> thich
+[13:44:55] [Async Chat Thread - #18/INFO]: [Not Secure] <ace> h di dau
+[13:45:07] [Async Chat Thread - #20/INFO]: [Not Secure] <TAT> m co dem giuong k
+[13:45:14] [Async Chat Thread - #20/INFO]: [Not Secure] <ace> khong
+[13:47:04] [Async Chat Thread - #22/INFO]: [Not Secure] <TAT> wtf
+[13:47:14] [Async Chat Thread - #21/INFO]: [Not Secure] <ace> noi t tung toi
+[13:47:18] [Async Chat Thread - #21/INFO]: [Not Secure] <TAT> :)))
+[13:47:28] [Async Chat Thread - #22/INFO]: [Not Secure] <ace> nice
+[13:47:44] [Async Chat Thread - #21/INFO]: [Not Secure] <ace> t danh dau nhung noi t tung toi
+[13:48:56] [Server thread/WARN]: Spruce Boat (vehicle of ace) moved wrongly! 2.4170699987127544
+[13:49:21] [User Authenticator #9/INFO]: UUID of player lynonmic is 15a17fa7-0eff-3895-956f-7c6e3a025124
+[13:49:22] [Server thread/INFO]: lynonmic joined the game
+[13:49:22] [Server thread/INFO]: lynonmic[/127.57.10.108:38385] logged in with entity id 114701 at ([world]-1022.5427257241914, 72.27518401044941, -285.04592968855513)
+[13:49:40] [Async Chat Thread - #24/INFO]: [Not Secure] <lynonmic> wtf
+[13:49:44] [Server thread/INFO]: lynonmic lost connection: Disconnected
+[13:49:44] [Server thread/INFO]: lynonmic left the game
+[13:50:10] [Async Chat Thread - #23/INFO]: [Not Secure] <ace> :v
+[13:50:11] [Async Chat Thread - #23/INFO]: [Not Secure] <TAT> :))
+[13:50:49] [Server thread/WARN]: Spruce Boat (vehicle of ace) moved wrongly! 0.2913230671909175
+[13:51:07] [User Authenticator #10/INFO]: UUID of player lynonmic is 15a17fa7-0eff-3895-956f-7c6e3a025124
+[13:51:08] [Server thread/INFO]: lynonmic joined the game
+[13:51:08] [Server thread/INFO]: lynonmic[/127.57.10.108:49601] logged in with entity id 115635 at ([world]-5.5, 109.0, -22.5)
+[13:53:56] [Server thread/WARN]: TAT moved too quickly! 3.237349498086587,-0.08307781780646906,-10.101229945884427
+[13:54:09] [Server thread/INFO]: ace issued server command: /data get entity lynonmic LastDeathLocation
+[13:54:34] [Server thread/INFO]: ace issued server command: /tp lynonmic -1023 72 -286
+[13:54:34] [Server thread/INFO]: [ace: Teleported lynonmic to -1022.500000, 72.000000, -285.500000]
+[13:56:41] [Async Chat Thread - #26/INFO]: [Not Secure] <TAT> ee
+[13:56:52] [Async Chat Thread - #26/INFO]: [Not Secure] <lynonmic> moi joined cai chet lun ne
+[13:56:56] [Async Chat Thread - #25/INFO]: [Not Secure] <lynonmic> moe cay
+[13:57:10] [Async Chat Thread - #26/INFO]: [Not Secure] <TAT> moi bat dc cap cuu
+[13:57:25] [Async Chat Thread - #25/INFO]: [Not Secure] <TAT> nuoi o dau h
+[13:58:54] [Server thread/INFO]: ace issued server command: /tp lynonmic -1023 72 -286
+[13:58:54] [Server thread/INFO]: [ace: Teleported lynonmic to -1022.500000, 72.000000, -285.500000]
+[13:59:38] [Server thread/INFO]: ace issued server command: /gamemode spectator
+[13:59:38] [Server thread/INFO]: [ace: Set own game mode to Spectator Mode]
+[14:00:35] [Server thread/INFO]: ace issued server command: /give lynonmic minecraft:diamond_axe
+[14:00:35] [Server thread/INFO]: [ace: Gave 1 [Diamond Axe] to lynonmic]
+[14:00:40] [Server thread/INFO]: TAT has made the advancement [The Parrots and the Bats]
+[14:00:45] [Server thread/INFO]: ace issued server command: /give lynonmic minecraft:diamond_pickaxe
+[14:00:45] [Server thread/INFO]: [ace: Gave 1 [Diamond Pickaxe] to lynonmic]
+[14:01:03] [Server thread/INFO]: ace issued server command: /give lynonmic minecraft:iron_leggings
+[14:01:03] [Server thread/INFO]: [ace: Gave 1 [Iron Leggings] to lynonmic]
+[14:01:07] [Async Chat Thread - #28/INFO]: [Not Secure] <lynonmic> spectator arrow
+[14:01:25] [Server thread/INFO]: ace issued server command: /give lynonmic minecraft:iron_boots
+[14:01:25] [Server thread/INFO]: [ace: Gave 1 [Iron Boots] to lynonmic]
+[14:01:39] [Server thread/INFO]: ace issued server command: /gamemode survival
+[14:01:39] [Server thread/INFO]: [ace: Set own game mode to Survival Mode]
+[14:01:58] [Server thread/INFO]: ace issued server command: /give lynonmic minecraft:iron_chestplate
+[14:01:59] [Server thread/INFO]: [ace: Gave 1 [Iron Chestplate] to lynonmic]
+[14:02:10] [Server thread/INFO]: ace issued server command: /give lynonmic minecraft:iron_helmet
+[14:02:10] [Server thread/INFO]: [ace: Gave 1 [Iron Helmet] to lynonmic]
+[14:02:19] [Async Chat Thread - #30/INFO]: [Not Secure] <TAT> co can sat thi o duoi may farm nha
+[14:02:25] [Async Chat Thread - #29/INFO]: [Not Secure] <TAT> ca dong dung k heets
+[14:02:32] [Server thread/INFO]: ace issued server command: /give lynonmic minecraft:golden_boots
+[14:02:32] [Server thread/INFO]: [ace: Gave 1 [Golden Boots] to lynonmic]
+[14:02:52] [Server thread/INFO]: ace issued server command: /give lynonmic bow
+[14:02:52] [Server thread/INFO]: [ace: Gave 1 [Bow] to lynonmic]
+[14:03:13] [Server thread/INFO]: ace issued server command: /give lynonmic minecraft:spectral_arrow 56
+[14:03:13] [Server thread/INFO]: [ace: Gave 56 [Spectral Arrow] to lynonmic]
+[14:03:36] [Server thread/INFO]: ace issued server command: /give lynonmic minecraft:shield
+[14:03:36] [Server thread/INFO]: [ace: Gave 1 [Shield] to lynonmic]
+[14:03:59] [Server thread/INFO]: ace issued server command: /give lynonmic minecraft:golden_carrot 7
+[14:03:59] [Server thread/INFO]: [ace: Gave 7 [Golden Carrot] to lynonmic]
+[14:04:10] [Server thread/INFO]: ace issued server command: /give lynonmic minecraft:bread 64
+[14:04:10] [Server thread/INFO]: [ace: Gave 64 [Bread] to lynonmic]
+[14:04:30] [Server thread/INFO]: ace issued server command: /give lynonmic beef 9
+[14:04:30] [Server thread/INFO]: [ace: Gave 9 [Raw Beef] to lynonmic]
+[14:06:53] [Async Chat Thread - #32/INFO]: [Not Secure] <TAT> ngu di cac bn
+[14:29:38] [Async Chat Thread - #34/INFO]: [Not Secure] <lynonmic> sleep
+[14:37:56] [Async Chat Thread - #36/INFO]: [Not Secure] <lynonmic> vuong
+[14:38:00] [Async Chat Thread - #35/INFO]: [Not Secure] <lynonmic> qua day
+[14:38:02] [Async Chat Thread - #35/INFO]: [Not Secure] <ace> sao
+[14:38:04] [Async Chat Thread - #35/INFO]: [Not Secure] <ace> tu
+[14:38:30] [Async Chat Thread - #36/INFO]: [Not Secure] <lynonmic> qua di
+[14:40:18] [Async Chat Thread - #38/INFO]: [Not Secure] <lynonmic> xong ch
+[14:40:32] [Server thread/INFO]: ace issued server command: /tp lynonmic
+[14:40:32] [Server thread/INFO]: [ace: Teleported ace to lynonmic]
+[14:40:47] [Async Chat Thread - #38/INFO]: [Not Secure] <ace> cek
+[14:40:54] [Async Chat Thread - #37/INFO]: [Not Secure] <lynonmic> xay nha cho ne
+[14:41:13] [Async Chat Thread - #38/INFO]: [Not Secure] <lynonmic> sleep
+[14:41:48] [Async Chat Thread - #37/INFO]: [Not Secure] <lynonmic> dep khum
+[14:41:51] [Async Chat Thread - #38/INFO]: [Not Secure] <ace> ghia
+[14:41:55] [Async Chat Thread - #38/INFO]: [Not Secure] <lynonmic> hehe
+[14:51:16] [Async Chat Thread - #40/INFO]: [Not Secure] <lynonmic> thay vuong ko cos nha
+[14:51:26] [Async Chat Thread - #39/INFO]: [Not Secure] <lynonmic> nen cho cai nha cay do
+[14:51:31] [Async Chat Thread - #39/INFO]: [Not Secure] <ace> coa ma
+[14:51:46] [Async Chat Thread - #40/INFO]: [Not Secure] <lynonmic> coa sao luc mai ko thay
+[14:51:54] [Async Chat Thread - #39/INFO]: [Not Secure] <lynonmic> co de di thos do
+[14:52:13] [Async Chat Thread - #40/INFO]: [Not Secure] <ace> :> do quy mang theo nguoi
+[14:52:57] [Async Chat Thread - #39/INFO]: [Not Secure] <lynonmic> nha ben kia ma
+[14:53:28] [Async Chat Thread - #40/INFO]: [Not Secure] <lynonmic> tele qua dau
+[14:53:34] [Async Chat Thread - #40/INFO]: [Not Secure] <ace> thui
+[14:53:39] [Async Chat Thread - #39/INFO]: [Not Secure] <lynonmic> loz
+[14:53:43] [Async Chat Thread - #39/INFO]: [Not Secure] <lynonmic> ngu
+[14:53:50] [Async Chat Thread - #40/INFO]: [Not Secure] <lynonmic> ngur
+[14:58:22] [Server thread/INFO]: lynonmic drowned
+[14:59:15] [Server thread/INFO]: ace issued server command: /data get entity lynonmic LastDeathLocation
+[14:59:30] [Server thread/INFO]: ace issued server command: /tp lynonmic -1122 53 -315
+[14:59:30] [Server thread/INFO]: [ace: Teleported lynonmic to -1121.500000, 53.000000, -314.500000]
+[14:59:42] [Server thread/INFO]: ace issued server command: /tp lynonmic TAT
+[14:59:42] [Server thread/INFO]: [ace: Teleported lynonmic to TAT]
+[15:00:03] [Server thread/INFO]: ace issued server command: /tp lynonmic -1122 53 -315
+[15:00:03] [Server thread/INFO]: [ace: Teleported lynonmic to -1121.500000, 53.000000, -314.500000]
+[15:00:17] [Server thread/INFO]: ace issued server command: /tp lynonmic TAT
+[15:00:17] [Server thread/INFO]: [ace: Teleported lynonmic to TAT]
+[15:00:28] [Server thread/INFO]: ace issued server command: /tp lynonmic -1122 53 -315
+[15:00:28] [Server thread/INFO]: [ace: Teleported lynonmic to -1121.500000, 53.000000, -314.500000]
+[15:00:40] [Server thread/INFO]: ace issued server command: /tp lynonmic TAT
+[15:00:40] [Server thread/INFO]: [ace: Teleported lynonmic to TAT]
+[15:02:31] [Async Chat Thread - #42/INFO]: [Not Secure] <lynonmic> con wheat ko
+[15:02:42] [Async Chat Thread - #41/INFO]: [Not Secure] <lynonmic> xin may stack di
+[15:07:11] [Server thread/INFO]: lynonmic has made the advancement [What a Deal!]
+[15:11:41] [Server thread/INFO]: Villager EntityVillager['Weaponsmith'/117249, l='ServerLevel[world]', x=-1151.99, y=63.00, z=-319.48] died, message: 'Weaponsmith was slain by Zombie'
+[15:11:47] [Server thread/INFO]: Villager EntityVillager['Weaponsmith'/117274, l='ServerLevel[world]', x=-1141.30, y=62.94, z=-322.30] died, message: 'Weaponsmith was slain by Zombie'
+[15:11:52] [Async Chat Thread - #44/INFO]: [Not Secure] <ace> sleep
+[15:12:23] [Server thread/INFO]: Villager EntityVillager['Cleric'/117253, l='ServerLevel[world]', x=-1126.15, y=68.00, z=-337.74] died, message: 'Cleric was slain by Zombie Villager'
+[15:16:51] [Server thread/WARN]: Spruce Boat (vehicle of TAT) moved wrongly! 0.535796624622485
+[15:16:51] [Server thread/WARN]: Spruce Boat (vehicle of TAT) moved wrongly! 0.535796624622485
+[15:16:51] [Server thread/WARN]: Spruce Boat (vehicle of TAT) moved wrongly! 0.535796624622485
+[15:16:52] [Server thread/WARN]: Spruce Boat (vehicle of TAT) moved wrongly! 0.535796624622485
+[15:16:52] [Server thread/WARN]: Spruce Boat (vehicle of TAT) moved wrongly! 0.535796624622485
+[15:23:26] [Async Chat Thread - #46/INFO]: [Not Secure] <lynonmic> bye
+[15:23:30] [Async Chat Thread - #45/INFO]: [Not Secure] <lynonmic> nghi day
+[15:23:30] [Async Chat Thread - #45/INFO]: [Not Secure] <TAT> ke
+[15:23:41] [Async Chat Thread - #46/INFO]: [Not Secure] <ace> ke
+[15:24:09] [Server thread/INFO]: lynonmic lost connection: Timed out
+[15:24:09] [Server thread/INFO]: lynonmic left the game.
+[15:24:09] [Server thread/WARN]: handleDisconnection() called twice
+[15:41:51] [Server thread/INFO]: ace issued server command: /give ace minecraft:leather 64
+[15:41:51] [Server thread/INFO]: [ace: Gave 64 [Leather] to ace]
+[15:46:51] [Server thread/INFO]: ace issued server command: /tp TAT ace
+[15:46:51] [Server thread/INFO]: [ace: Teleported TAT to ace]
+[15:47:08] [Server thread/INFO]: TAT has made the advancement [Enchanter]
+[15:48:37] [Async Chat Thread - #48/INFO]: [Not Secure] <TAT> 2 cuon lv1 giong nhau
+[15:49:17] [Server thread/INFO]: ace issued server command: /tp TAT
+[15:49:17] [Server thread/INFO]: [ace: Teleported ace to TAT]
+[15:49:29] [Async Chat Thread - #47/INFO]: [Not Secure] <ace> give me a book
+[15:49:41] [Async Chat Thread - #48/INFO]: [Not Secure] <TAT> t co lay cuon nao dau
+[15:49:56] [Async Chat Thread - #48/INFO]: [Not Secure] <ace> ua book voi lazuli
+[15:49:58] [Async Chat Thread - #47/INFO]: [Not Secure] <ace> :v
+[15:50:13] [Async Chat Thread - #47/INFO]: [Not Secure] <ace> ke
+[15:53:22] [Server thread/INFO]: ace has made the advancement [Enchanter]
+[15:53:50] [Server thread/INFO]: ace issued server command: /experience add ace 10
+[15:53:50] [Server thread/INFO]: [ace: Gave 10 experience points to ace]
+[15:54:30] [Server thread/INFO]: ace issued server command: /experience add ace 10
+[15:54:30] [Server thread/INFO]: [ace: Gave 10 experience points to ace]
+[15:54:53] [Server thread/INFO]: ace issued server command: /experience add ace 20
+[15:54:53] [Server thread/INFO]: [ace: Gave 20 experience points to ace]
+[15:55:17] [Server thread/WARN]: Spruce Boat (vehicle of TAT) moved wrongly! 0.26099955519009654
+[15:55:17] [Server thread/WARN]: Spruce Boat (vehicle of TAT) moved wrongly! 0.34113763823125964
+[15:55:17] [Server thread/WARN]: Spruce Boat (vehicle of TAT) moved wrongly! 0.4182525962903014
+[15:57:27] [Async Chat Thread - #50/INFO]: [Not Secure] <TAT> ngu bn oi
+[15:57:37] [Async Chat Thread - #49/INFO]: [Not Secure] <ace> ke
+[15:58:30] [Server thread/INFO]: ace issued server command: /tp TAT
+[15:58:30] [Server thread/INFO]: [ace: Teleported ace to TAT]
+[15:58:50] [Async Chat Thread - #52/INFO]: [Not Secure] <ace> khong co dong co a
+[15:58:55] [Async Chat Thread - #52/INFO]: [Not Secure] <ace> a co
+[16:01:32] [Async Chat Thread - #54/INFO]: [Not Secure] <ace> sao lay book tu cai disenchant zi
+[16:02:42] [Async Chat Thread - #56/INFO]: [Not Secure] <TAT> thoi sui di ngu nha bn
+[16:02:47] [Async Chat Thread - #56/INFO]: [Not Secure] <TAT> :)))
+[16:02:47] [Async Chat Thread - #55/INFO]: [Not Secure] <ace> ke
+[16:03:19] [Server thread/INFO]: TAT lost connection: Timed out
+[16:03:19] [Server thread/INFO]: TAT left the game.
+[16:03:19] [Server thread/WARN]: handleDisconnection() called twice
+[16:08:43] [Server thread/INFO]: ace issued server command: /give ace book 2
+[16:08:43] [Server thread/INFO]: [ace: Gave 2 [Book] to ace]
+[16:09:07] [Server thread/INFO]: ace issued server command: /experience add ace 100
+[16:09:07] [Server thread/INFO]: [ace: Gave 100 experience points to ace]
+[16:10:08] [Server thread/INFO]: ace issued server command: /experience add ace 100
+[16:10:08] [Server thread/INFO]: [ace: Gave 100 experience points to ace]
+[16:10:52] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/117275, l='ServerLevel[world]', x=-1096.30, y=68.00, z=-306.57] died, message: 'Leatherworker was slain by Drowned'
+[16:26:00] [Async Chat Thread - #58/INFO]: [Not Secure] <ace> :v
+[16:26:03] [Server thread/INFO]: ace lost connection: Disconnected
+[16:26:03] [Server thread/INFO]: ace left the game
